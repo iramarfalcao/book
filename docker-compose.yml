@@ -12,12 +12,12 @@ services:
     ports:
       - "25432:5432"
     environment:
-      POSTGRES_DB: book
+      POSTGRES_DB: books
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: admin
-      PGDATA: /var/lib/postgresql/data/book
+      PGDATA: /var/lib/postgresql/data/books
     volumes:
-      - webapi-mvc:/var/lib/postgresql/data
+      - book:/var/lib/postgresql/data
 
 volumes:
   webapi-mvc:
