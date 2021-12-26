@@ -1,0 +1,8 @@
+.env
+.out
+.idea
+vendor
+.vscode
+go.sum
+.DS_Store
+tmp
