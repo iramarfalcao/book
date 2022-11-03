@@ -1,0 +1,36 @@
+_id: req_44a4a8c898444fd7b88c284010d8c7c0
+type: Request
+parentId: fld_ddec0a22c1404020be9d1825fe5f2d86
+modified: 1662042564066
+created: 1657851639732
+url: localhost:8080/registrations/3
+name: Update Registration
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cpf": "99999999900",
+      "name": "Fulano de Tal",
+      "email": "fulano@email.com",
+      "value": 1.3,
+      "expectedDate": "2030-01-10",
+    	"phoneNumber": "123123123123123",
+    	"residence": "Coroa Grande",
+    	"monName": "Judite Silva"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_611686b7c41b4c80939905c5895cbdc7
+authentication: {}
+metaSortKey: -1658280000758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

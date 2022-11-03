@@ -1,0 +1,21 @@
+_id: req_41d8f71cbc8a4d719d589bfbae92f38e
+type: Request
+parentId: wrk_41f28c569aa04710b467b89f6756af14
+modified: 1662029821279
+created: 1658537830238
+url: "{{ _.base_url }}/"
+name: Entrypoint
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1658537830238
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

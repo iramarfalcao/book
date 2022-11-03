@@ -1,0 +1,37 @@
+_id: req_07861721a7ef46b4ada679af3ef294e1
+type: Request
+parentId: fld_ddec0a22c1404020be9d1825fe5f2d86
+modified: 1664804527958
+created: 1658280000808
+url: "{{ _.base_url }}/registrations"
+name: All Registrations
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 1,
+    	"cpf": "99999999900",
+      "name": "Fulano de Tal",
+      "email": "fulano@email.com",
+      "value": 1000.0,
+      "expectedDate": "2030-01-10",
+    	"phoneNumber": "987987987",
+    	"residence": "Coroa Grande",
+    	"monName": "Judite Silva"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_906815bce7794da3b087aead848c8ac1
+authentication: {}
+metaSortKey: -1658280000808
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

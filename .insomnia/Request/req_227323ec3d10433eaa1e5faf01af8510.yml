@@ -1,0 +1,34 @@
+_id: req_227323ec3d10433eaa1e5faf01af8510
+type: Request
+parentId: fld_8d08a8ea6bbb4ac4b91b84965d57b794
+modified: 1667432341435
+created: 1667432075407
+url: localhost:3000/deposit
+name: deposit
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "Depósito 01",
+    	"amount": 1500.00
+    }
+parameters: []
+headers:
+  - id: pair_9402371c97054a5abc6f90bfb9ac1b9b
+    name: cpf
+    value: "00099900098"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_9972e0f9e5d7467db7a767409bafa345
+authentication: {}
+metaSortKey: -1667401526077.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

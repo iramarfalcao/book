@@ -1,0 +1,25 @@
+_id: req_3620e7c99c63470f8e5ca6111ce7c851
+type: Request
+parentId: fld_8d08a8ea6bbb4ac4b91b84965d57b794
+modified: 1667427197353
+created: 1667419813268
+url: localhost:3000/statement
+name: statement
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2767a2bf2d504c4fb350649e3aeffcd2
+    name: cpf
+    value: "00099900098"
+    description: ""
+authentication: {}
+metaSortKey: -1667401811367
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
